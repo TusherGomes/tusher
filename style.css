@@ -1,0 +1,394 @@
+body{
+    font-family: "Poppins";
+}
+.container1{
+width: 1350px;
+margin: 0 auto;
+}
+/* ---------header css-------------  */
+
+.header{
+    background: rgba(8, 27, 84);
+    
+}
+.logo{
+    height: 45px;
+    width: 54px;
+    margin-top: 17px;
+}
+.logo img{
+    text-align: left;
+    max-width: 100%;
+    display: inline-block;
+}
+.logo h3{
+    display: inline-block;
+    position: relative;
+    top: -48px;
+    left: 65px;
+    color: #fff;
+    font-weight: 700
+}
+.menu{}
+.menu ul{
+    text-align: right;
+    margin-bottom: 0px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 11px 17px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+    margin: 19px 0;
+    
+}
+.menu ul li a:hover{
+    background: rgba(17, 172, 130);
+    border-radius: 5px;
+}
+
+/* background: #16b978 ;
+background: #081b54; */
+/*-------------- banner csss ---------*/
+
+.banner{
+    background-image: url(./img/Background\ –\ 1@2x.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 53px;
+}
+.banner-text{
+    margin-top: 96px;
+}
+.banner-text .wel{
+    color: rgba(20, 184, 119);
+    font-weight: 700;
+    font-size: 22px;
+}
+.banner-text h1{
+    color: rgba(8, 27, 84);
+    font-size: 82px;
+    font-weight: 700;
+}
+
+.banner-text .well{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 39px 0;
+}
+.ttt{
+    text-decoration: none;
+    padding: 11px 28px;
+    display: inline-block;
+    color: rgba(20, 184, 119);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 42px;
+    border-radius: 42px;
+    outline: none;
+border: 2px solid rgba(20, 184, 119);
+background: #fff;
+text-decoration: none;
+
+  
+}
+.ttt:hover{
+    background: rgba(20, 184, 119);
+    color: #fff;
+    border-radius: 42px;
+    text-decoration: none;
+    
+ 
+}
+.banner-img img{
+    max-width: 100%;
+}
+
+
+/*--------------------- .content css ------------------*/
+
+.content{
+    background-image: url(./img/about-bg.jpg);
+    padding: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+.content h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 67px;
+    margin-bottom: 91px;
+    margin-top: -79px;
+ }
+.con-menu{
+   background: #fff;
+   padding: 30px 10px;
+   border-radius: 10px;
+   box-shadow: 0px -5px 0px #16b978;
+}
+.con-menu img{
+    
+}
+.salad{
+    height: auto;
+width: 263px;
+}
+.salad img{
+    max-width: 100%;
+}
+.salad h2{
+    font-weight: 600;
+font-size: 23px;
+}
+.salad span{
+    font-weight: 700;
+font-size: 25px;
+color:  #16b978;
+}
+.one{
+    width: 295px;
+}
+.two{
+    width: 296px;
+    margin-left: -21px;
+}
+
+
+/* <!------------------ food-shop ----------------------> */
+
+
+
+.food-shop{}
+.box{}
+.red2{
+    padding: 20px;
+font-size: 41px;
+font-weight: 700;
+color: #081b54;
+}
+.red3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+.img11{
+    overflow: hidden;
+    height: 361px;
+    border-radius: 5px;
+}
+.box1{
+    overflow: hidden;
+    width: 105%;
+    height: auto;
+    box-shadow: 0px 4px 8px #ddd;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box1 img{
+    max-width: 100%;
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box1 img:hover{
+    transform:scale(1.1);
+}
+.box1 h1{
+    margin-top: 10px;
+    font-weight: 600;
+     font-size: 23px;
+     margin-left: 10px;
+}
+.box1 p{
+    font-weight: 700;
+font-size: 25px;
+color:  #16b978;
+display: inline-block;
+margin-top: 26px;
+margin-left: 10px;
+}
+.box1 span:hover{
+    background: #081b54;
+}
+.box1 span{
+    position: relative;
+    right: -187px;
+    top: 7px;
+    background: #16b978;
+    padding: 18px;
+    font-size: 29px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .4s;
+}
+/*box 2*/
+.box2 .img11{
+    overflow: hidden;
+    height: 361px;
+    width: 100%;
+    border-radius: 5px;
+}
+.box2{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 8px #ddd;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img11 img{
+    width: 100%;
+}
+.box2 img{
+    max-width: 100%;
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box2 img:hover{
+    transform:scale(1.1);
+}
+.box2 h1{
+    margin-top: 10px;
+    font-weight: 600;
+     font-size: 23px;
+     margin-left: 10px;
+}
+.box2 p{
+    font-weight: 700;
+font-size: 25px;
+color:  #16b978;
+display: inline-block;
+margin-top: 26px;
+margin-left: 10px;
+}
+.box2 span:hover{
+    background: #081b54;
+}
+.box2 span{
+    position: relative;
+    right: -519px;
+    top: 7px;
+    background: #16b978;
+    padding: 18px;
+    font-size: 29px;
+    border-radius: 5px;
+    color: #fff;
+    transition: .4s;
+}
+
+
+/* ---------------customer css----------------- */
+
+.customer{}
+.box0{
+    box-sizing: border-box;
+    box-shadow: 0px 6px 6px #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img0{
+    border-radius: 50%;
+    height: auto;
+    width: 100px;
+    padding: 16px 0;
+    margin: auto;
+}
+
+
+.img0 img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #081b54;
+  
+}
+.box0 span{
+    color: #16b978;
+    font-size: 20px;
+padding: 10px 0;
+}
+.box0 p{
+    padding: 4px 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.box0 h5{
+    color: #16b978;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0
+}
+
+/* -------------contact us ------------*/
+
+.foot{}
+.foot h1{
+    font-size: 36px;
+font-weight: 700;
+}
+.foot .ho{
+    width: 100%;
+padding: 10px 0;
+font-weight: 600;
+}
+.foot p span{
+    margin-right: 10px;
+    
+}
+.foot ul{
+    text-align: left;
+    padding-left: 0px;
+}
+.foot ul li{
+    display: inline-block;
+}
+.foot ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+padding: 10px 10px;
+color: #16b978;
+}
+.foot ul li:first-child a{
+    padding-left: 0px;
+}
+.foot ul li a:hover{
+    color: #081b54;
+}
+
+.foot-right{
+
+}
+.from-control{
+    width: 100%;
+    border: 2px solid #16b978;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #16b978;
+    box-shadow: 2px 3px 14px #ddd;
+    outline: none;
+}
+.footer p{
+    margin-top: 42px;
+font-size: 27px;
+font-weight: 600;
+}
+.rr{
+    background: #16b978;
+    color: #fff;
+}
+.rr:hover{
+    background: #fff;
+    color: #16b978;
+}
